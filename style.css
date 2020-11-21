@@ -1,0 +1,82 @@
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc-9DMl6VWzmRK7Mnol3IRKvGUeq8dEPYOTA&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-color:#000033;
+    text-align: center;
+}
+
+.navbar {
+    position: sticky;
+    width: 100%;
+    background-color: transparent;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    justify-content: space-evenly;
+    
+}
+
+button {
+    background-color: rebeccapurple;
+    color: white; 
+    border-radius: 14px;
+}
+
+#logo {
+    text-align: center;
+
+}
+
+.main {
+    margin-top: 125px; 
+    width: 50%;
+    margin-left: 30px;
+}
+
+#headline {
+    font-family: Luminari, fantasy; 
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+}
+
+#content {
+    font-family: "OCR A Std", monospace; 
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 6px 6px 0;
+    display: inline-block;
+    padding:6px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    animation-name: down;
+    animation-duration: 60s;
+}
+
+@keyframes down {
+    from {background-color: white;}
+    to {background-color: gray;}
+}
+
+
+p {
+    font-family: 'Comic Sans MS', cursive;
+    color: white;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    justify-content: space-evenly;
+}
